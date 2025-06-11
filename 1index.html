@@ -8,12 +8,20 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('poster.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 100vh;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
     }
   </style>
 </head>
 <body>
+  <img src="poster.jpg" alt="Primesurv Poster" />
 </body>
 </html>
